@@ -37,3 +37,6 @@
 
 @import 'includes/cascade-nav-bar.css';
 @import 'includes/cascade-tabs.css';
+
+@import 'integrations/tabcenter-reborn/cascade-tcr.css';
+@import 'integrations/side-view/cascade-sideview.css';
