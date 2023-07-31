@@ -1,7 +1,6 @@
-#sidebar-box[sidebarcommand*="side-view"] { max-width: 50vw !important; }
+#sidebar-box[sidebarcommand*="side-view"] { max-width: 100vw !important; }
 
-[sidebarcommand*="side-view"] #sidebar { width: 100% !important; max-width: 50vw !important; height: 100% !important; }
-
+[sidebarcommand*="side-view"] #sidebar { width: 100% !important; max-width: 100vw !important; height: 100% !important; }
 
 
 #sidebar-box[sidebarcommand*="side-view"] #sidebar-header {
@@ -24,4 +23,8 @@
 
   background: transparent !important;
 
+}
+
+#sidebar-box #sidebar-header, #sidebar-box #sidebar-close {
+  visibility: collapse !important;
 }
