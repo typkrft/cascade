@@ -40,3 +40,6 @@
 
 @import '../integrations/tabcenter-reborn/cascade-tcr.css';
 @import '../integrations/side-view/cascade-sideview.css';
+@import '../integrations/dracula/cascade-dracula.css';
+
+@import 'includes/cascade-tweaks.css';

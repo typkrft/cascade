@@ -1,0 +1,15 @@
+toolbarbutton#sidebar-button, toolbarbutton#unified-extensions-button{
+    margin-right: 5.5px;
+    margin-left: 5.5px;
+}
+
+toolbarbutton#sidebar-button image, toolbarbutton#unified-extensions-button image, #urlbar [role="button"]:hover {
+  background-color: transparent;
+}
+
+#urlbar [role="button"] {
+  background-color: transparent;
+}
+
+/* Toolbar could be ordered with `el {order: 1;}` */
+/*  #urlbar #urlbar-input {text-align: center}  */
