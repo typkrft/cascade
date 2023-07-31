@@ -1,15 +1,8 @@
-toolbarbutton#sidebar-button, toolbarbutton#unified-extensions-button{
+#nav-bar toolbarbutton, #nav-bar toolbaritem {
     margin-right: 5.5px !important;
     margin-left: 5.5px !important;
 }
 
-toolbarbutton#sidebar-button image, toolbarbutton#unified-extensions-button image, #urlbar [role="button"]:hover {
+#nav-bar toolbarbutton image, #nav-bar toolbaritem stack, #urlbar [role="button"]:hover {
   background-color: transparent !important;
 }
-
-#urlbar [role="button"] {
-  background-color: transparent !important;
-}
-
-/* Toolbar could be ordered with `el {order: 1;}` */
-/*  #urlbar #urlbar-input {text-align: center}  */

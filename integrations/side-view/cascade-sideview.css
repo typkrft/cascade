@@ -25,6 +25,7 @@
 
 }
 
+/* Hide Headers and Close bars */
 #sidebar-box #sidebar-header, #sidebar-box #sidebar-close {
   visibility: collapse !important;
 }

@@ -19,7 +19,7 @@
     /*  Cascades main Colour Scheme */
     --uc-base-colour:               #282a36;
     --uc-highlight-colour:          #44475a;
-    --uc-inverted-colour:           #6272a4;
+    --uc-inverted-colour:           #f8f8f2;
     --uc-muted-colour:              #44475a;
     --uc-accent-colour:             var(--uc-identity-colour-purple);
   
