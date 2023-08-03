@@ -43,6 +43,3 @@
 @import 'integrations/dracula/cascade-dracula.css';
 
 @import 'includes/cascade-tweaks.css';
-
-/* Websites */
-@import 'integrations/websites/plex.css'
