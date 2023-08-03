@@ -3,7 +3,11 @@
     margin-left: 5.5px !important;
 }
 
-#nav-bar toolbarbutton image, #nav-bar toolbaritem stack, #urlbar [role="button"]:hover {
+/* #nav-bar toolbarbutton image, #nav-bar toolbaritem stack, #urlbar [role="button"]:hover {
+  background-color: transparent !important;
+} */
+
+#nav-bar toolbarbutton image, #nav-bar toolbaritem stack {
   background-color: transparent !important;
 }
 
