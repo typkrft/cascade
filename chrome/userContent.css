@@ -167,7 +167,7 @@
     -o-background-size: auto, cover!important ;
   }
   .plex-preloader-container {
-    background-color: transparent !important ;
+    background-color: transparent!important ;
   }
   [class*="BottomBar-bottomBar-"] {
     background: var(--transparency-dark-70)!important ;
