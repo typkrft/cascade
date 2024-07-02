@@ -12,18 +12,24 @@
      --uc-identity-colour-purple:    #786FA6;
 
      /*  Cascades main Colour Scheme */
-     --uc-base-colour:               #1E2021;
-     --uc-highlight-colour:          #191B1C;
+     --uc-base-colour:               #282a36;
+     --uc-highlight-colour:          #44475a;
      --uc-inverted-colour:           #FAFAFC;
      --uc-muted-colour:              #AAAAAC;
      --uc-accent-colour:             var(--uc-identity-colour-purple);
      --uc-shadow-colour:             #000000;
 
 }
-
+--tab-separator {
+  margin-bottom: 10px;
+}
 
 #topmenu { display: none !important; }
 
+
+#pinnedtablist .tab {
+    margin-left: 9px;
+}
 
 #tablist-wrapper,
 #pinnedtablist { background: var(--uc-base-colour); }
@@ -84,6 +90,8 @@ body:hover #tablist-wrapper .tab-title-wrapper {
 }
 
 #tablist .tab[data-identity-color] .tab-context::before { left: -3px; }
+
+#tablist {margin-left: 2px;}
 
 
 #pinnedtablist:not(.compact) .tab .tab-pin,
